@@ -1,31 +1,30 @@
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
 }
 
 /* header section */
 
 /* nav */
-#bar{
+#bar {
     display: flex;
     justify-content: space-around;
     gap: 850px;
     /* margin-top: 30px; */
     width: 100%;
-height: 80px ;
+    height: 80px;
 }
 
-.name{
+.name {
     color: rgb(13, 19, 33);
     font-size: 22px;
     font-weight: 800;
 }
 
-.btn-1{
+.btn-1 {
     color: rgb(13, 19, 33);
     font-size: 15px;
     font-weight: 600;
@@ -36,24 +35,25 @@ height: 80px ;
 }
 
 /* banner */
-.banner{
+.banner {
     background-image: url(../assets/Hero-bg.png);
     text-align: center;
     padding: 40px 70px;
 }
 
-.banner-info{
+.banner-info {
     width: 100%;
     height: 430px;
 }
 
-.banner-title{
+.banner-title {
     color: rgb(13, 19, 33);
     font-size: 28px;
     font-weight: 800;
+    /* font-family: sans-serif; */
 }
 
-.banner-description{
+.banner-description {
     color: rgb(13, 19, 33);
     font-size: 15px;
     font-weight: 400;
@@ -61,7 +61,7 @@ height: 80px ;
     opacity: 0.6;
 }
 
-.btn-2{
+.btn-2 {
     margin: 22px 0px;
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -71,3 +71,223 @@ height: 80px ;
     padding: 11px 12px 11px 12px;
 
 }
+
+/* main section */
+
+.web {
+    width: 1140px;
+    height: 1595px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 100px auto;
+}
+
+.importance {
+    width: 946px;
+    height: 1435px;
+    margin: 80px auto;
+    padding: 50px;
+}
+
+.web-dev1 {
+    width: 852px;
+    height: 115px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.h-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.h-descript {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+
+.motive {
+    width: 946px;
+    height: 1435px;
+    /* border: 2px solid; */
+    margin-top: 100px;
+}
+
+
+
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+
+.h-div1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.div1-descript {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.h-div2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.div2-descript {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.h-div3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.div3-descript {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-3 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.Inspiration {
+    width: 1140px;
+    height: 777px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+.Inspiration h2 {
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Inspiration p {
+    color: rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 28px 0px;
+}
+
+
+
+.Inspiration .inspiration-video iframe {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 900px;
+    height: 500px;
+    margin: 28px auto;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.target {
+    width: 1140px;
+    height: 477px;
+    margin: 100px auto;
+
+}
+
+.skill-head {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+}
+
+.skill1 {
+    width: 33%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(255, 251, 250);
+}
+
+.skill-descript {
+    color: rgb(13, 19, 33);
+    opacity: 0.6;
+}
+
+.skill2 {
+    width: 33%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(241, 247, 251);
+}
+
+.skill3 {
+    width: 33%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(254, 249, 242);
+}
+
+.Learn {
+    color: black;
+    font-weight: bold;
+}
+
+.support {}
